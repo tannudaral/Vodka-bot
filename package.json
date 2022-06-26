@@ -1,0 +1,22 @@
+{
+  "name": "vodka",
+  "version": "1.0.0",
+  "description": "vodka discord bot",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm test",
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "bean",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.6",
+    "nodemon": "^2.0.18"
+  }
+}
